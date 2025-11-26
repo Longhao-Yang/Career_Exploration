@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body { @apply bg-zinc-50 text-zinc-900; }
+a { @apply underline-offset-4; }
+
+/* Print-friendly */
+@media print {
+  .no-print { display: none !important; }
+  body { @apply bg-white; }
+  .print-card { box-shadow: none !important; border: 1px solid #e4e4e7; }
+}

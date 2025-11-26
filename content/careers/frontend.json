@@ -1,0 +1,52 @@
+{
+  "slug": "frontend-engineer",
+  "title": "前端工程师",
+  "updated_at": "2025-11-26",
+  "daily_routine": [
+    "10:00-11:00 评审 PR、对齐组件规范（语义化、可访问性、边界态）",
+    "11:00-12:00 开发/重构组件：课程卡片、按钮、弹窗等",
+    "14:00-16:00 与产品/设计对齐交互细节，拆分任务与验收标准",
+    "16:00-18:00 自测与修复：响应式、键盘操作、异常态、性能小优化"
+  ],
+  "top_tasks": [
+    "把设计稿实现为响应式 UI（语义化结构 + 样式）",
+    "组件化开发与状态管理（可复用、可维护）",
+    "可访问性（焦点态、键盘操作、ARIA）",
+    "接口对接与错误态处理（加载/空态/失败）",
+    "基础性能优化（懒加载、减少重渲染、资源压缩）"
+  ],
+  "requirements": {
+    "must": ["HTML 语义化", "CSS/Tailwind 基础", "JavaScript/TypeScript 基础", "Git 基本流程"],
+    "nice_to_have": ["React/Next.js 基础", "简单的状态管理", "单元测试意识", "可访问性意识"],
+    "pitfalls": [
+      "只追像素，不考虑语义与可访问性",
+      "全局样式污染导致后续维护困难",
+      "忽略失败与边界：加载/空数据/报错/慢网"
+    ]
+  },
+  "deliverables": [
+    "可复用组件（含 props 设计与文档）",
+    "对齐记录（与设计/产品确认的验收标准）",
+    "自测清单（断点/键盘/边界态）",
+    "变更说明（Changelog / PR 描述）"
+  ],
+  "paths": {
+    "zero_to_one": [
+      "掌握 HTML 语义结构与表单基础",
+      "掌握响应式布局（Flex/Grid + 断点思维）",
+      "做 3 个组件并写 README：卡片、按钮、弹窗",
+      "加上可访问性：焦点态、键盘可用、aria-label"
+    ],
+    "advanced": [
+      "系统化可访问性（WAI-ARIA APG 组件模式）",
+      "性能与监控（分包、LCP/INP、错误上报）",
+      "参与设计系统（Storybook/组件库/规范）"
+    ]
+  },
+  "sources": [
+    { "name": "MDN Web Docs", "url": "https://developer.mozilla.org/" },
+    { "name": "WAI-ARIA Authoring Practices (APG)", "url": "https://www.w3.org/WAI/ARIA/apg/" },
+    { "name": "React Docs", "url": "https://react.dev/" },
+    { "name": "Next.js Docs", "url": "https://nextjs.org/docs" }
+  ]
+}
